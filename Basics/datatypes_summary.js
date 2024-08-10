@@ -44,3 +44,27 @@ const myFunction = function(){
 console.log(typeof myFunction); // fuction
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stacke (primitive), heep(non primimitive )
+
+let myyoutubename = "gurucode.com"
+let anothername = myyoutubename;
+anothername = "coders_world"
+
+console.log(myyoutubename);
+console.log(anothername)
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@vpl"
+}
+
+let userTwo =  userOne
+
+userTwo.email = "guru@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email);
