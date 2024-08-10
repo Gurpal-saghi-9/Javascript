@@ -24,6 +24,8 @@ const hundreds = 1000000
 // console.log(Math.floor(4.9)); // 4
 // console.log(Math.min(4, 3, 6, 8)); // 3
 // console.log(Math.max(4, 3, 6, 8)); // 8
+// console.log(Math.sqrt(16)) // 4
+// console.log(Math.pow(2,3)) // 8
 
 console.log(Math.random()); //0.7294409226473526
 console.log((Math.random()*10) + 1); //9.64331425485539
