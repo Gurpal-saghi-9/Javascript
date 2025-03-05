@@ -21,7 +21,7 @@ const anotherId = Symbol('123')
 console.log(id === anotherId); // false
 
 const bigNumber = 3456543576654356754n
-console.log(typeof bigNumber); // bigint
+// console.log(typeof bigNumber); // bigint
 
 
 
@@ -48,7 +48,7 @@ const myFunction = function(){
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// stacke (primitive), heep(non primimitive )
+// stack (primitive), heep(non primimitive )
 
 let myyoutubename = "gurucode.com"
 let anothername = myyoutubename;
