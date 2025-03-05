@@ -1,27 +1,26 @@
-//var c = 300
+// var c = 300
 let a = 300
+
+// {} // scope
+
 if (true) {
     let a = 10
     const b = 20
     // console.log("INNER: ", a);
-    
 }
 
-
-
-// console.log(a);
-// console.log(b);
-// console.log(c);
-
+// console.log(a)
+// console.log(b)
+// console.log(c)
 
 function one(){
-    const username = "hitesh"
+    const username = "Gurpal"
 
     function two(){
         const website = "youtube"
         console.log(username);
     }
-    // console.log(website);
+    // console.log(website); // error 
 
      two()
 
@@ -30,15 +29,16 @@ function one(){
 // one()
 
 if (true) {
-    const username = "hitesh"
-    if (username === "hitesh") {
+    const username = "Guru"
+    if (username === "Guru") {
         const website = " youtube"
         // console.log(username + website);
     }
-    // console.log(website);
+    // console.log(website); // error
 }
 
-// console.log(username);
+// console.log(username); // error
+
 
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
@@ -52,7 +52,8 @@ function addone(num){
 
 
 
-addTwo(5)
 const addTwo = function(num){
     return num + 2
 }
+let res = addTwo(5)
+console.log(res);
