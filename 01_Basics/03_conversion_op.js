@@ -25,7 +25,7 @@ let numLog = 0
 let boolLog = Boolean(numLog)
 // console.log(boolLog);
 
-let isLoggedIn = "guru"
+let isLoggedIn = "guru" 
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 // console.log(booleanIsLoggedIn);
