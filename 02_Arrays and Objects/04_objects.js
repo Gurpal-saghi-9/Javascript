@@ -69,26 +69,29 @@ users[1].email
 // console.log(Object.values(tinderUser)); // [ '123abc', 'Sammy', false ]
 // console.log(Object.entries(tinderUser)); // [ [ 'Id', '123abc' ], [ 'Name', 'Sammy' ], [ 'IsLoggedIn', false ] ]
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('IsLoggedIn')); // true
 
+// --------------------------------------------------
 
 const course = {
-    coursename: "js in hindi",
-    price: "999",
-    courseInstructor: "hitesh"
+    courseName: "JavaScript",
+    coursePrice: 1000,
+    courseDuration: "3 months",
+    courseType: "Online",
+    courseLanguage: "English",
+    courseInstructor: "Gurpal Singh",
 }
 
-// course.courseInstructor
+// course.coursePrice 
 
-// const {courseInstructor: instructor} = course
-
-// console.log(courseInstructor);
-// console.log(instructor);
+const {courseInstructor: Instructor} = course
+console.log(Instructor); // Gurpal Singh
 
 // {
-//     "name": "hitesh",
-//     "coursename": "js in hindi",
-//     "price": "free"
+//     "name" = "gurpal",
+//     "age" = 20,
+//     "city" = "Delhi",
+//     "country" = "India"
 // }
 
 [
