@@ -2,13 +2,13 @@
 // console.log(typeof score); //number
 
 let score = "33"
-// console.log(typeof score); 
+// console.log(typeof score); //string
 
 let valueInNumber = Number(score)
 // console.log(typeof valueInNumber); // number
 // console.log(valueInNumber); //33
 
-let val = undefined // if null then output 0, if vl is "33abc" then output NaN
+let val = undefined // if null then output 0, if val is "33abc" then output NaN
 convert = Number(val)
 // console.log(convert); //NaN
 
