@@ -24,3 +24,15 @@ function Addition(number1, number2){
     console.log("Sum of ", number1, " and ", number2, " is ", number1 + number2);
 }
 // Addition(30, 20);
+
+function LoginUserMessage(userName) {
+    if (!userName) {
+        console.log("Please enter a username");
+        return;
+    }
+    return `${userName} just logged in`;
+}
+
+// console.log(LoginUserMessage("Gurpal"));  // This will work and log: "Gurpal just logged in"
+console.log(LoginUserMessage());          // This will log: "Please enter a username"
+
