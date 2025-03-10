@@ -12,16 +12,32 @@
 // console.log("Execute");
 // <, >, <=, >=, ==, !=, ===, !==
 
+
+// -------------------------------------------------------
+
+// if(2 == "2"){
+//     console.log("Executed")
+// }
+
+// -------------------------------------------------------
+
+// if(2 === "2"){
+//     console.log("Executed")
+// }
+// else{
+//     console.log("not"); 
+// }
+
 // -------------------------------------------------------
 
 // const score = 200
 
 // if (score > 100) {
-//     let power = "fly"
+//     const power = "fly"
 //     console.log(`User power: ${power}`);
 // }
 
-// console.log(`User power: ${power}`); // 
+// console.log(`User power: ${power}`); // error because of scope using const and let not showing eroor with var of simple
 
 // --------------------------------------------------------
 
@@ -50,8 +66,11 @@
 // const loggedInFromGoogle = false
 // const loggedInFromEmail = true
 
+// if (userLoggedIn && debitCard) {
+//     console.log("Allow to buy course Testcase 1");
+// }
 // if (userLoggedIn && debitCard && 2==3) {
-//     console.log("Allow to buy course");
+//     console.log("Allow to buy course Testcase 2");
 // }
 
 // if (loggedInFromGoogle || loggedInFromEmail) {
@@ -88,22 +107,22 @@
 
 // --------------------------------------------------------
 
-import readline from 'readline';
+// import readline from 'readline';
 
-const rl2 = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+// const rl2 = readline.createInterface({
+//     input: process.stdin,
+//     output: process.stdout
+// });
 
-rl2.question('Please enter a number: ', (input) => {
-    let num = Number(input);
-    if (num % 2 === 0) {
-        console.log("Even");
-    } 
-    else {    
-        console.log("Odd");
-    }
-    rl2.close();
-});
+// rl2.question('Please enter a number: ', (input) => {
+//     let num = Number(input);
+//     if (num % 2 === 0) {
+//         console.log("Even");
+//     } 
+//     else {    
+//         console.log("Odd");
+//     }
+//     rl2.close();
+// });
 
 // --------------------------------------------------------
