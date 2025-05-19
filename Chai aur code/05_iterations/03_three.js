@@ -1,39 +1,43 @@
 // for of
 
-// ["", "", ""]
-// [{}, {}, {}]
+// ["","",""]
+// [{},{},{}]
 
-const arr = [1, 2, 3, 4, 5]
+const num = [1,2,3,4,5]
 
-for (const num of arr) {
-    // console.log(num);
+res = ""
+
+for (const val of num){
+    res = res + " " + val 
 }
+// console.log(res);
 
-const greetings = "Hello world!"
-for (const greet of greetings) {
-    // console.log(`Each char is ${greet}`)
+const greeting = "Hello Guru!"
+for(const greet of greeting){
+    // console.log(`Each char is ${greet}`);   
 }
 
 // Maps
 
-const map = new Map()
-map.set('IN', "India")
-map.set('USA', "United States of America")
-map.set('Fr', "France")
-map.set('IN', "India")
+const state = new Map()
+state.set("PB", "Punjab")
+state.set("HR", "Haryana")
+state.set("MP", "Madhya Pradesh")
+state.set("HP", "Himachal Pradesh")
+state.set("PB", "Punjab")
 
+// console.log(state);
 
-// console.log(map);
-
-for (const [key, value] of map) {
-    // console.log(key, ':-', value);
+for (const [short, full] of state) {
+    // console.log(short, ":-", full);
 }
 
-const myObject = {
-    game1: 'NFS',
-    game2: 'Spiderman'
+const obj = {
+    game1 : "GTA",
+    game2 : "Mine Craft"
 }
 
-for (const [key, value] of Object.entries(myObject)) {
-    console.log(key, ':-', value);
-}
+console.log(obj);
+// for (const [key, val] of obj) { // obj not iterable
+//     console.log(key, ":-", val);
+// }
