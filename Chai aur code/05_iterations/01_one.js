@@ -25,7 +25,7 @@ for (let i = 1; i <= 3; i++) {
 let myArray = ["flash", "batman", "superman"]
 // console.log(myArray.length);
 for (let index = 0; index < myArray.length; index++) {
-    // console.log(`Element at ${index} is : ` + myArray[index]);
+    // console.log(`Element at ${index} is : ${myArray[index]}`);
     
 }
 
