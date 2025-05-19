@@ -8,12 +8,13 @@ const balance = new Number(100)
 // console.log(balance.toString().length);  // 3
 // console.log(balance.toFixed(1)); // 100.0
 
-const otherNumber = 123.8966
+const otherNumber = 124.8966
 
-// console.log(otherNumber.toPrecision());
+// console.log(otherNumber.toPrecision(3)); // returns a string
 
 const hundreds = 1000000
-// console.log(hundreds.toLocaleString('en-IN'));
+// console.log(hundreds.toLocaleString('en-in')); // 10,00,000
+// console.log(hundreds.toLocaleString('en-us')); // 1,000,000
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
@@ -36,4 +37,4 @@ const hundreds = 1000000
 const min = 10
 const max = 40
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min)  // 10
+console.log(Math.floor(Math.random() * (max - min + 1)) + min)  
