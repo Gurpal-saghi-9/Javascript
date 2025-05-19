@@ -7,7 +7,7 @@ if (true) {
     let a = 10
     const b = 20
     // console.log("INNER: ", a);
-    // console.log("INNER: ", c); // not showing error because c is decalerd with 'var' it is used in whole code
+    // console.log("INNER: ", c); // OUTPUT: 500 not showing error because c is decalerd with 'var' it is used in whole code
 }
 
 // console.log(a)
