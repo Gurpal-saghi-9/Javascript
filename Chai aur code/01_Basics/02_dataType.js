@@ -1,3 +1,6 @@
+/* The `"use strict";` directive is used to enable strict mode in JavaScript. When strict mode is
+enabled, the JavaScript code is executed in a stricter mode, which helps to catch common coding
+mistakes and prevent certain actions that are considered bad practice. */
 "use strict"; // treat all JS code as newer version
 
 // alert("hello guru") // we are using nodejs, not browser
