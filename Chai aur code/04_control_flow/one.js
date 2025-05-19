@@ -1,12 +1,12 @@
 // IF
 
 // const isUseroggedIn = true
-// const temperature = 41
+const temperature = 41
 
 // if ( temperature === 40 ){
-//     console.log("less than 50");
+//     console.log("equal to 40");
 // } else {
-//     console.log("temperature is greater than 50");
+//     console.log(`${temperature} is greater than 40`);
 // }
 
 // console.log("Execute");
@@ -25,7 +25,7 @@
 //     console.log("Executed")
 // }
 // else{
-//     console.log("not"); 
+//     console.log("not Executed"); 
 // }
 
 // -------------------------------------------------------
