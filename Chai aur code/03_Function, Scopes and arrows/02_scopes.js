@@ -1,4 +1,4 @@
-// var c = 300
+var c = 500
 let a = 300
 
 // {} // scope
@@ -7,10 +7,11 @@ if (true) {
     let a = 10
     const b = 20
     // console.log("INNER: ", a);
+    // console.log("INNER: ", c); // not showing error because c is decalerd with 'var' it is used in whole code
 }
 
 // console.log(a)
-// console.log(b)
+// console.log(b) // error because b is in the condition scope
 // console.log(c)
 
 function one(){
@@ -44,7 +45,7 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+// console.log(addone(5))
 
 function addone(num){
     return num + 1
@@ -56,4 +57,4 @@ const addTwo = function(num){
     return num + 2
 }
 let res = addTwo(5)
-console.log(res);
+// console.log(res);
